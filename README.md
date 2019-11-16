@@ -1,5 +1,3 @@
-# VolTradingStrategiesExs
-### This is a strategy sample I implemented. 
 HighVol: A long straddle strategy for high volitility market, and do delta&gamma hedge at the same time. I long straddle at the first day, and every day, I first do gamma-hedging by trade options, then do delta-hedging by trade underlying SPY. 
 
 LowVol: A short straddle strategy for low volitility market, and do delta&gamma hedge at the same time. I short straddle at the first day, and every day, I first do gamma-hedging by trade options, then do delta-hedging by trade underlying SPY. 
